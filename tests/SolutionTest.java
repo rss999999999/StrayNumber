@@ -5,7 +5,7 @@ public class SolutionTest {
 
     @Test
     public void simpleArray1() {
-        assertEquals(2, getActualFor(1, 1, 2));
+        assertEquals(8, getActualFor(1, 1, 1,1,1,1,8,1,1));
     }
 
     private int getActualFor(int... numbers) {
